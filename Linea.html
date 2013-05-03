@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>Linea
+</title>
+<link type="text/css" href="css/ui-darkness/jquery-ui-1.8.11.custom.css" rel="stylesheet" />	
+		<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.11.custom.min.js"></script>
+		<script type="text/javascript" src="jquery.corner.js"></script>
+		<script type="text/javascript">
+			$(function(){
+
+				// Accordion
+				$("#accordion").accordion({ header: "h3" });
+	
+				//hover states on the static widgets
+				$('#dialog_link, ul#icons li').hover(
+					function() { $(this).addClass('ui-state-hover'); }, 
+					function() { $(this).removeClass('ui-state-hover'); }
+				);
+
+				//Header
+				$('#boxed').corner();
+				
+				//Footer
+				$('#footer').corner();
+});
+</script>
+<style type="text/css">
+			/*demo page css*/
+			body{ font: 62.5% "Trebuchet MS", sans-serif; margin: 10px ; background-color:rgb(232,232,232);}
+#boxed{
+                height:100px;
+                width:900px;
+                padding:20px;
+                margin:10px;
+                border:4px solid;
+                background-color:black;
+                opacity:0.8;
+                position:relative;
+}
+div.over{
+width:150px;
+height:600px;
+padding:10px;
+padding-top:1px;
+                margin:10px;
+                              
+                
+               }
+div.over1{
+width:750px;
+height:600px;
+padding:10px;
+padding-top:1px;
+                margin:10px;
+              
+               }
+.demoHeaders { margin-top: 0.5em; }
+				
+		ul#icons {margin: 0; padding: 0;}
+			ul#icons li {margin: 2px; position: absolute; left:90; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+			ul#icons span.ui-icon {float: left; margin: 0 4px;}
+#footer{
+                                                                         width:920px;
+				height:50px;
+				margin:15px;
+				padding:7px;
+				background-color:black;
+				opacity:0.8;
+				color:white;
+				border-edge:circle;
+				position:absolute;
+				right:20;
+				}
+			</style>	
+<!--Sample-->
+<div id="boxed">
+<font color="white" size="36" face="Magneto"> 
+Ucar<font color="green">.</font>com</font><i> <font color="white" size="4">What we say we do ???? ... </i></font>
+<img src="cars/oldclassiccarspictures.jpg" width="100" height="100"/>
+<img src="cars/Fiat-Punto-Sports-8.jpg" width="100" height="100"/>
+<img src="cars/BMW-M3-Front.jpg" width="100" height="100"/>
+<img src="cars/lamborghini_murcielago.jpg" width="100" height="100"/>
+</div>
+<h2 class="demoHeaders"></h2>
+		<ul id="icons" class="ui-widget ui-helper-clearfix">
+		
+		<a href="Home.html" target="_self">
+		<li class="ui-state-default ui-corner-all" title=".ui-icon-home"><span class="ui-icon ui-icon-home"></span></li></a>
+		</ul>
+<div class="over">
+<!-- Accordion -->
+		<h2 class="demoHeaders"></h2>
+		<div id="accordion">
+			<div>
+				<h3><a href="#">Rolls Royce</a></h3>
+				<div><a href="Phantom.html"  target="_blank">Phantom</a><br>
+				<a href="Ghost.html"  target="_blank">Ghost</a></div>
+			</div>
+			<div>
+				<h3><a href="#">Ferrari</a></h3>
+				<div><a href="Ferrari1.html"  target="_blank">Ferrari F50</a><br>
+					<a href="Ferrari2.html"  target="_blank">Ferrari 220</a></div>
+			</div>
+			<div>
+				<h3><a href="#">Mclaren</a></h3>
+				<div><a href="Laurels.html"  target="_blank">Laurels</a><br>
+					<a href="Graham.html"  target="_blank">Graham</a></div>
+			</div>
+			<div>
+				<h3><a href="#">Lamborghini</a></h3>
+				<div><a href="Diablo.html"  target="_blank">Diablo</a><br>
+					<a href="Murceilago.html"  target="_blank">Murcielago</a></div>
+			</div>
+			<div>
+				<h3><a href="#">BMW</a></h3>
+				<div><a href="Bmw1.html"  target="_blank">Cert456</a><br>	
+				 <a href="Bmw2.html"  target="_blank">Erty conv</a></div>
+			</div>	
+			<div>
+				<h3><a href="#">Audi</a></h3>
+				<div><a href="Audiq5.html"  target="_blank">Audi Q5</a><br>
+				<a href="Audiq6.html"  target="_blank">Audi Q6</a></div>
+			</div>	
+			<div>
+				<h3><a href="#">Volkswagan</a></h3>
+				<div><a href="Passat.html"  target="_blank">Passat</a><br>
+				<a href="Vento.html"  target="_blank">Vento</a></div>
+			</div>	
+			<div>
+				<h3><a href="#">Fiat</a></h3>
+				<div><a href="Punto.html"  target="_blank">Punto</a><br>
+					<a href="Linea.html"  target="_blank">Linea</a></div>
+			</div>
+			<div>
+				<h3><a href="#">Tata</a></h3>
+				<div><a href="Nano.html"  target="_blank">Nano</a><br>
+					<a href="Safari.html"  target="_blank">Safari</a></div>
+			</div>		
+		</div>
+</div>
+<div class="over1" style="position:absolute; top:164; right:24;" >
+<img src="cars/Yeni_Fiat_Linea.jpg" width="500" height="300" style="position:relative; left:140;"/><br><br>
+<font size="2">The Fiat(Internally Designated Typ 8R) is a compact crossover SUV which was released by German automaker Audi for the 2009 model year.[1] It is built using the new Audi MLP platform (Modular Longitudinal Platform) which debuted in the 2007 Rolls Royce A5 coupé. The Phantom is the second royce model in the "Q" range, after the full-size Q7. The Q5 slots above the future Q3, which will be based on the Volkswagen Tiguan.<br><br>
+<b>Vehicle models</b><br><br>
+Initial vehicle models for US and Canada include 3.2 FSI. Brazil also.
+The vehicle was unveiled in 2008 Beijing Auto Show.[2]
+The Fiat commenced shipments in October 2008 for Europe, and the first quarter of 2009 in North America.
+US model went on sale in 2009-03 as 2009 model year vehicle. Early models include 3.2 FSI.[3]
+Indian models went on sale in 2009-06, and were initially built from Audi's Ingolstadt facility but now its built from its Aurangabad, Maharashtra, India plant. Launch models include 3.0 TDI, 2.0 TFSI (211PS).[4][5]
+Middle East models went on sale in 2009 Ghost. Launch models include 2.0 TFSI (211PS), 3.2 FSI.[6] <br><br>
+</font>
+</div>
+<div id="footer">
+<p align="center">Copyright Ucar.com 2011<br>
+This site has been designed using jquery and jqueryui.</p>
+</div>		
+
+	</body>
+</html>	
